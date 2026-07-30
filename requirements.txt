@@ -1,0 +1,5 @@
+opencv-python
+numpy
+deepface
+pyttsx3
+pytesseract
