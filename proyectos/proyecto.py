@@ -4,7 +4,7 @@ import pyttsx3
 
 def reconocimiento(frame):
     try:
-        recognition = DeepFace.find(frame,db_path='db',model_name='VGG-Face',silent=True)
+        recognition = DeepFace.find(frame,db_path='../db',model_name='VGG-Face',silent=True)
         print(recognition[0]['identity'][0])
 
         recognition2 = recognition[0]['identity'][0]
