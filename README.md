@@ -1,10 +1,10 @@
-# 📸 Tutorial OpenCV para principiantes con Python
+# Tutorial OpenCV para principiantes con Python
 
 Repositorio educativo para aprender **visión por computadora** utilizando **Python** y la librería **OpenCV**, enfocado en personas que están comenzando desde cero.
 
 ---
 
-## 🚀 Descripción
+## Descripción
 
 Este proyecto contiene ejemplos prácticos y sencillos para introducirte en el uso de OpenCV con Python, una de las bibliotecas más utilizadas en **procesamiento de imágenes y visión artificial**. 
 
@@ -18,7 +18,7 @@ A lo largo del repositorio aprenderás conceptos básicos como:
 
 ---
 
-## 🧠 ¿Qué es OpenCV?
+## ¿Qué es OpenCV?
 
 **OpenCV (Open Source Computer Vision Library)** es una biblioteca de código abierto con cientos de algoritmos optimizados para trabajar con imágenes y video en tiempo real.
 
@@ -31,15 +31,15 @@ Se usa en áreas como:
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
-* 🐍 Python 3
-* 📸 OpenCV (`cv2`)
-* 🔢 NumPy
+*  Python 3
+*  OpenCV (`cv2`)
+*  NumPy
 
 ---
 
-## ⚙️ Instalación
+## Instalación
 
 > ⚠️ **Usá Python 3.10 a 3.13.** `deepface` depende de `tensorflow`, que todavía no publica wheels para Python 3.14 (ni versiones más nuevas) — si tu `python` por defecto apunta a 3.14, `pip install -r requirements.txt` va a fallar con un error de resolución de dependencias imposible de resolver. En Windows, usá el [Python Launcher](https://docs.python.org/3/using/windows.html#python-launcher-for-windows) para elegir la versión: `py -0p` lista las versiones instaladas, y `py -3.13 -m venv ENTORNO` crea el entorno con esa versión puntual.
 
@@ -67,24 +67,24 @@ pip install -r requirements.txt
 
 ---
 
-## 🔤 Requisito extra para el módulo de OCR (Tesseract-OCR)
+## Requisito extra para el módulo de OCR (Tesseract-OCR)
 
 El módulo 11 (OCR con `pytesseract`) necesita, además de `pip install -r requirements.txt`, tener instalado el **binario de Tesseract-OCR a nivel de sistema** (pytesseract es solo un wrapper de Python, no incluye el motor de OCR).
 
-* 🪟 **Windows**: descargá el instalador oficial de [UB-Mannheim](https://github.com/UB-Mannheim/tesseract/wiki) y agregá la carpeta de instalación al `PATH`. Si preferís no tocar el `PATH`, podés apuntar directo al ejecutable en el código:
+*  **Windows**: descargá el instalador oficial de [UB-Mannheim](https://github.com/UB-Mannheim/tesseract/wiki) y agregá la carpeta de instalación al `PATH`. Si preferís no tocar el `PATH`, podés apuntar directo al ejecutable en el código:
 
 ```python
 import pytesseract
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 ```
 
-* 🐧 **Linux (Debian/Ubuntu)**:
+*  **Linux (Debian/Ubuntu)**:
 
 ```bash
 sudo apt install tesseract-ocr
 ```
 
-* 🍎 **Mac**:
+*  **Mac**:
 
 ```bash
 brew install tesseract
@@ -96,7 +96,7 @@ Cada archivo está diseñado para enseñar un concepto específico de forma prog
 
 ---
 
-## 📂 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 ├── notebooks/       # Los 11 módulos del tutorial en Jupyter Notebook
@@ -111,7 +111,7 @@ Cada archivo está diseñado para enseñar un concepto específico de forma prog
 
 ---
 
-## 📚 Contenido del tutorial
+##  Contenido del tutorial
 
 1. Funciones básicas: lectura, escalado y rotación de imágenes
 2. Procesamiento de imágenes: filtros de color, desenfoque, bordes, morfología y ecualización
@@ -129,7 +129,7 @@ Cada módulo tiene su ejercicio guiado correspondiente en `practicas/`.
 
 ---
 
-## 🎯 Objetivo del proyecto
+##  Objetivo del proyecto
 
 Este repositorio busca:
 
@@ -139,7 +139,7 @@ Este repositorio busca:
 
 ---
 
-## 🤝 Contribuciones
+##  Contribuciones
 
 Las contribuciones son bienvenidas 🙌
 
@@ -152,16 +152,9 @@ Puedes:
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
 **Víctor Castillo**
 🔗 [https://github.com/VictorCastillo23](https://github.com/VictorCastillo23)
 
 ---
-
-## ⭐ Apóyalo
-
-Si este proyecto te ayudó:
-
-* Dale ⭐ al repositorio
-* Compártelo con otros
